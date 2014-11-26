@@ -14,6 +14,7 @@
 .program-staff:before {
   content: url("../img/credit/programer-icon.png");
   transform: scale(0.5);
+  -webkit-transform: scale(0.5);
   position: absolute;
 }
 .design-staff:before {
