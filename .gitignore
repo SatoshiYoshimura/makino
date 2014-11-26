@@ -1,0 +1,6 @@
+*.*~
+*.swp
+./jade/*
+./node_modules/*
+./stylus/*
+

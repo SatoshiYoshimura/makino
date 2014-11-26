@@ -1,0 +1,18 @@
+extends ./base
+block css-link
+  link(rel="stylesheet" type="text/css" href='./css/story.css')
+
+block append content
+  h1 ストーリー
+  article.box-story
+    section.image-box-story
+      img.img-story(src="./img/story/world-image.jpg" alt="世界観イメージ" width="800px")
+    div.cover-sentence-box-story
+      section.sentence-box-story
+        | 美しき庭に彩られた国、ガーデン王国。平和で穏やかな日常を送る国に、ある日、事件が巻き起こる。
+        br
+        | 隣国、ズゥ帝国の獣人、ズーリアンたちの襲撃。
+        br
+        | 大切なものを守るため、自身の日常を取り戻すため。
+        br
+        | ガーデン王国の庭師クルツとその仲間たちは、ズーリアンに立ち向かう。

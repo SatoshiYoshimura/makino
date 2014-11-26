@@ -1,0 +1,28 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset='UTF-8')
+    title=ガーデンテイル
+    link(rel="stylesheet" type="text/css" href='./css/common.css')
+    link(rel="stylesheet" type="text/css" href='./vender/bootstrap/css/bootstrap.css')
+    block css-link
+  body
+    block header
+      nav.navbar.navbar-default.navbar-fixed-top(role="navigation")
+        div.container.animsition(style="width:960px")
+          a.navbar-brand.logo-base.animsition-link(href="./index.html" data-animsition-out="fade-out-down-sm" data-animsition-out-duration="2000") なにかロゴ
+          a.navbar-brand.nav-content(href="./story.html") ストーリー
+          a.navbar-brand.nav-content(href="./character.html") キャラクター
+          a.navbar-brand.nav-content(href="./character.html") システム
+          a.navbar-brand.nav-content(href="./spec.html") 動作環境
+          a.navbar-brand.nav-content(href="./credit.html") クレジット
+        //a.navbar-brand.nav-content(href="./character.html") ダウンロード
+    block content
+
+    block footer
+      div.panel-footer.footer-base Copyright 2014 Bonyon Games Inc. All Rights Reserved.
+      footer
+        script(src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js")
+        script(src="./vender/deferred/jsdeferred.js")
+        script(src="./vender/bootstrap/js/bootstrap.js")
+        script(src="./vender/pageswitch/js/jquery.pageswitch.js")

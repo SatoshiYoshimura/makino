@@ -1,0 +1,48 @@
+@charset "utf-8";
+* {
+  font-family: serif;
+}
+h2 {
+  margin: 0;
+}
+body {
+  text-align: center;
+  padding-top: 70px;
+}
+.logo-base {
+  margin: 0 30px 0 0;
+}
+.nav-content {
+  margin: 0 25px 0 0;
+}
+.area-content {
+  text-align: center;
+  width: 960px;
+}
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px 0 0;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.img-thumbnail:hover {
+  background-color: #a9a9a9;
+  border-color: inherit;
+  opacity: 0.7;
+}
+.footer-base {
+  margin: 20px 0 0 0;
+}
