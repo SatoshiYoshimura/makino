@@ -1,0 +1,33 @@
+extends ./base
+block css-link
+  link(rel="stylesheet" type="text/css" href='./css/character.css')
+
+block append content
+  h1 キャラクター紹介
+  article.box-character
+    h2.name-character  Kurtz クルツ
+    div.clearfix.cover-img-character
+      img.img-character(src="./img/character/kurtz/kurtz.png" alt="クルツ|立ち絵")
+    div.cover-unitImage-character
+      img.img-unitImage-character(src="./img/character/kurtz/kurtz_f.png" alt="クルツ|前向き")
+      img.img-unitImage-character.unitImage-back(src="./img/character/kurtz/kurtz_b.png" alt="クルツ|後ろ向き")
+    section.profile-character
+      table.profile-character-table
+        th プロフィール
+        tr
+          td 年齢
+          td 18
+        tr
+         td 性別
+         td 男
+        tr
+         td 職業
+         td 庭師
+    section.establish-character
+      | 本編の主人公で、ガーデン王室お抱えのエリート庭師。
+      br
+      | 若くして成り上がったためか自尊心が高く、また、それを隠そうともしない典型的な自己中心的ナルシストである。
+  article.box-character-thumbnail
+    h2 メイン キャラクター
+    img.img-thumbnail(src="./img/character/kurtz/kurtz.png" alt="クルツ|サムネ" width="60px")
+    img.img-thumbnail(src="./img/character/orivia/orivia.png" alt="クルツ|サムネ" width="60px")
