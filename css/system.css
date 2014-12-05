@@ -1,0 +1,17 @@
+@charset "utf-8";
+.box-system {
+  margin: 0 auto 0 auto;
+  width: 960px;
+  max-width: 960px;
+  min-width: 600px;
+}
+.stageImage-system {
+  margin: 20px;
+}
+.system-description-system {
+  font-size: 25px;
+  margin: 20px;
+}
+.end-description-system {
+  margin-bottom: 50px;
+}
