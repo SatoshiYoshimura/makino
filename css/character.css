@@ -1,6 +1,5 @@
 @charset "utf-8";
 .box-character {
-  border: solid 1px #ddd;
   margin: 0 auto 0 auto;
   width: 960px;
   max-width: 960px;
@@ -8,11 +7,13 @@
   position: relative;
   text-align: left;
 }
+.streetName-character {
+  font-size: 20px;
+}
 .cover-img-character {
   position: relative;
 }
-.cover-img-character:after {
-  content: "なってない。全然なってないぞ、お前の庭は。\Aだから、僕が造りなおしてやる";
+.character-serif {
   position: absolute;
   top: 30px;
   left: 16px;
