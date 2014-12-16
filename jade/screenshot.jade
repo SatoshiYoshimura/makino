@@ -1,0 +1,18 @@
+extends ./base
+block title-word
+  title ガーデンテイル ~スクリーンショット~
+block css-link
+  link(rel="stylesheet" type="text/css" href='./css/screenshot.css')
+  link(rel="stylesheet" type="text/css" href='./vender/lightbox/lightbox.css')
+
+block append content
+  article.box-screenshot
+    p
+      a(href="./img/system/bonyon.png" data-lightbox="screenshot")
+        img.img-thumbnail.coover-img-screenshot(src="./img/system/bonyon.png" width="100px")
+      a(href="./img/screenshot/test.jpg" data-lightbox="screenshot")
+        img.img-thumbnail.coover-img-screenshot(src="./img/screenshot/test.jpg" width="150px")
+
+block append footer
+  script(src="./vender/lightbox/lightbox.min.js")
+
