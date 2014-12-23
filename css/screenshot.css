@@ -5,4 +5,8 @@
 }
 .img-thumbnail {
   margin: 20px;
+  opacity: 0;
+}
+.img-thumbnail:hover {
+  opacity: 1;
 }
