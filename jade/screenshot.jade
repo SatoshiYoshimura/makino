@@ -1,0 +1,37 @@
+extends ./base
+block title-word
+  title ガーデンテイル ~スクリーンショット~
+block css-link
+  link(rel="stylesheet" type="text/css" href='./css/screenshot.css')
+  link(rel="stylesheet" type="text/css" href='./vender/lightbox/lightbox.css')
+
+block append content
+  article.box-screenshot
+    p
+      a(href="./img/screenshot/status.jpg" data-lightbox="screenshot" title="ステータス画面。勝利するには出撃前にスキルやアイテムを整える事が重要だ")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/status.jpg" width="250px")
+      a(href="./img/screenshot/marshaling.jpg" data-lightbox="screenshot" title="キャラの配置やマップも重要な要素の一つだ")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/marshaling.jpg" width="250px")
+      a(href="./img/screenshot/action.jpg" data-lightbox="screenshot" title="ターン内に様々な行動ができる。味方と上手く連携しよう")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/action.jpg" width="250px")
+      a(href="./img/screenshot/crisis.jpg" data-lightbox="screenshot" title="ときには敵に囲まれてピンチになってしまうことも")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/crisis.jpg" width="250px")
+      a(href="./img/screenshot/bomb.jpg" data-lightbox="screenshot" title="ボニョンを上手く使えば敵を一掃できるぞ")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/crisis.jpg" width="250px")
+      a(href="./img/screenshot/skill.jpg" data-lightbox="screenshot" title="スキルごとに攻撃範囲が違うぞ。複数の敵に同時に攻撃することもできる")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/skill.jpg" width="250px")
+      a(href="./img/screenshot/cure.jpg" data-lightbox="screenshot" title="オリヴィアのスキル、キュアは味方のHPを回復することができる")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/cure.jpg" width="250px")
+      a(href="./img/screenshot/chat.jpg" data-lightbox="screenshot")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/chat.jpg" width="250px")
+      a(href="./img/screenshot/chapter1.jpg" data-lightbox="screenshot")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/chapter1.jpg" width="250px")
+      a(href="./img/screenshot/bonyon.jpg" data-lightbox="screenshot")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/bonyon.jpg" width="250px")
+      a(href="./img/screenshot/smallbonyon.jpg" data-lightbox="screenshot")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/smallbonyon.jpg" width="250px")
+      a(href="./img/screenshot/forest.jpg" data-lightbox="screenshot")
+        img.img-thumbnail.js-img-screenshot.cover-img-screenshot(src="./img/screenshot/forest.jpg" width="250px")
+
+block append footer
+  script(src="./vender/lightbox/lightbox.min.js")

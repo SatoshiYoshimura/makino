@@ -1,0 +1,8 @@
+@charset "utf-8";
+.box-screenshot {
+  margin: 0 auto;
+  width: 960px;
+}
+.img-thumbnail {
+  margin: 20px;
+}
