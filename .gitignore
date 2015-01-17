@@ -3,6 +3,7 @@
 ./jade/*
 ./node_modules/*
 ./stylus/*
+./img/*
 node_modules
 npm-debug.log
 spec.html
