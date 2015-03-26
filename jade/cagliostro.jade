@@ -1,0 +1,38 @@
+extends ./base
+block title-word
+  title ガーデンテイル ~カリオストロ~
+block css-link
+  link(rel="stylesheet" type="text/css" href='./css/character.css')
+
+block append content
+  article.box-character
+    h2.name-character
+      span.streetName-character 〜色香纏いし道化〜
+      | &nbsp; &nbsp; カリオストロ
+    div.clearfix.cover-img-character
+      img.img-character(src="./img/character/cagliostro/cagliostro.png" alt="カリオストロ|立ち絵")
+      div.character-serif
+        | うふふ、いい反応ねぇ。
+        br
+        | お姉さん、ゾクゾクしちゃうわぁ
+    div.cover-unitImage-character
+      img.img-model-character(src="./img/character/cagliostro/cagliostro_model.png" )
+    section.profile-character
+      table.profile-character-table
+        th プロフィール
+        tr
+          td 年齢
+          td 不詳
+        tr
+         td 性別
+         td 不詳
+        tr
+         td 職業
+         td 不詳
+    section.establish-character
+      | いつも薄笑いを浮かべている自称道化。
+      br
+      | 扇情的な格好で色気を振りまくが、基本的に面倒見がよい。
+      br
+      | 何が目的なのか、一切を隠しながら一行を導く。
+  include character_under_list

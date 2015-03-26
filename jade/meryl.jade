@@ -1,0 +1,36 @@
+extends ./base
+block title-word
+  title ガーデンテイル ~メリル~
+block css-link
+  link(rel="stylesheet" type="text/css" href='./css/character.css')
+
+block append content
+  article.box-character
+    h2.name-character
+      span.streetName-character 〜カレー大好き元気っ子〜
+      | &nbsp; &nbsp; メリル
+    div.clearfix.cover-img-character
+      img.img-character(src="./img/character/meryl/meryl.png" alt="メリル|立ち絵")
+      div.character-serif
+        | カレー、たべる！　みんな、元気！
+    div.cover-unitImage-character
+      img.img-model-character(src="./img/character/meryl/meryl_model.png" )
+    section.profile-character
+      table.profile-character-table
+        th プロフィール
+        tr
+          td 年齢
+          td 14
+        tr
+         td 性別
+         td 女
+        tr
+         td 職業
+         td カレー屋
+    section.establish-character
+      | 異国の料理『カレー』をガーデンに広めた少女。
+      br
+      |元気で愛嬌のある言動で、ガーデンの人気者。
+      br
+      |夢は【カレーで皆を笑顔にする】こと。
+  include character_under_list

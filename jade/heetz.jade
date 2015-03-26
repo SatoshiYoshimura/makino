@@ -16,8 +16,7 @@ block append content
         br
         | 持って生まれたもん使うてナニが悪いんや！
     div.cover-unitImage-character
-      img.img-unitImage-character(src="./img/character/heetz/heetz_f.png" alt="ヒーツ|前向き")
-      img.img-unitImage-character.unitImage-back(src="./img/character/heetz/heetz_b.png" alt="ヒーツ|後ろ向き")
+      img.img-model-character(src="./img/character/heetz/heetz_model.png" )
     section.profile-character
       table.profile-character-table
         th プロフィール
@@ -36,14 +35,4 @@ block append content
       | 圧政を敷き、領民を苦しめる貴族のボンボン。
       br
       | 自分以上の毛並みを持たない者には従わないという信念を持つ。
-  article.box-character-thumbnail
-    h2 メイン キャラクター
-    a(href="./character.html")
-      img.img-thumbnail(src="./img/character/kurtz/kurtz.png" alt="クルツ|サムネ" width="60px")
-    a(href="./orivia.html")
-      img.img-thumbnail(src="./img/character/orivia/orivia.png" alt="オリビア|サムネ" width="60px")
-    a(href="./alec.html")
-      img.img-thumbnail(src="./img/character/alec/alec.png" alt="アレク|サムネ" width="60px")
-    a(href="./heetz.html")
-      img.img-thumbnail(src="./img/character/heetz/heetz.png" alt="ヒーツ|サムネ" width="60px")
-    | CommingSoon...
+  include character_under_list

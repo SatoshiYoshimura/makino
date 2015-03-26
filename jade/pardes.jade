@@ -1,0 +1,38 @@
+extends ./base
+block title-word
+  title ガーデンテイル ~パルデス~
+block css-link
+  link(rel="stylesheet" type="text/css" href='./css/character.css')
+
+block append content
+  article.box-character
+    h2.name-character
+      span.streetName-character 〜心酔する女豹軍人〜
+      | &nbsp; &nbsp; パルデス
+    div.clearfix.cover-img-character
+      img.img-character(src="./img/character/pardes/pardes.png" alt="パルデス|立ち絵")
+      div.character-serif
+        | 鳴き叫べッ！震え戦けッ！
+        br
+        | 恐怖と共に、我らズーリアンに跪くがいいッ！！
+    div.cover-unitImage-character
+      img.img-model-character(src="./img/character/pardes/pardes_model.png" )
+    section.profile-character
+      table.profile-character-table
+        th プロフィール
+        tr
+          td 年齢
+          td 34
+        tr
+         td 性別
+         td 女
+        tr
+         td 職業
+         td 軍人
+    section.establish-character
+      | レオナルド皇帝の側近にして、ズゥの参謀である豹の獣人。
+      br
+      | 幼い頃より皇帝と共にあり、現状、唯一皇帝が心を許す存在。
+      br
+      | 心からの忠誠を皇帝に誓い、主の意思を妨げる者を殲滅する軍人。
+  include character_under_list

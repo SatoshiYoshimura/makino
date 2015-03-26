@@ -14,8 +14,7 @@ block append content
       div.character-serif
         | 今日も良い天気ね。花たちも喜んでるわ。
     div.cover-unitImage-character
-      img.img-unitImage-character(src="./img/character/orivia/orivia_f.png" alt="オリビア|前向き")
-      img.img-unitImage-character.unitImage-back(src="./img/character/orivia/orivia_b.png" alt="オリビア|後ろ向き")
+      img.img-model-character(src="./img/character/orivia/orivia_model.png" )
     section.profile-character
       table.profile-character-table
         th プロフィール
@@ -34,14 +33,4 @@ block append content
       | 花々を愛し、育てるうち、語らうことがきるようになっていた。
       br
       | 夢は【花々で世界を満たす】こと。
-  article.box-character-thumbnail
-    h2 メイン キャラクター
-    a(href="./character.html")
-      img.img-thumbnail(src="./img/character/kurtz/kurtz.png" alt="クルツ|サムネ" width="60px")
-    a(href="./orivia.html")
-      img.img-thumbnail(src="./img/character/orivia/orivia.png" alt="オリビア|サムネ" width="60px")
-    a(href="./alec.html")
-      img.img-thumbnail(src="./img/character/alec/alec.png" alt="アレク|サムネ" width="60px")
-    a(href="./heetz.html")
-      img.img-thumbnail(src="./img/character/heetz/heetz.png" alt="ヒーツ|サムネ" width="60px")
-    | CommingSoon...
+  include character_under_list

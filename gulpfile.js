@@ -4,6 +4,7 @@ var watch = require('gulp-watch');
 var stylus = require('gulp-stylus');
 var fs = require('fs');
 var gulpmatch = require('gulp-match');
+var plumber = require('gulp-plumber');
 
 gulp.task('watch', function () {
   gulp.watch('./jade/*.jade', ['jade']);
@@ -19,7 +20,7 @@ gulp.task('jade', function () {
 });
 
 gulp.task('stylus', function() {
-  gulp.src('stylus/*')
+  gulp.src('stylus/*.styl')
   .pipe(stylus())
   .pipe(gulp.dest('css/'));
 });
