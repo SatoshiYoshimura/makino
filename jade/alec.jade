@@ -16,8 +16,7 @@ block append content
         br
         | 買った買ったァ！！
     div.cover-unitImage-character
-      img.img-unitImage-character(src="./img/character/alec/alec_f.png" alt="アレク|前向き")
-      img.img-unitImage-character.unitImage-back(src="./img/character/alec/alec_b.png" alt="アレク|後ろ向き")
+      img.img-model-character(src="./img/character/alec/alec_model.png" )
     section.profile-character
       table.profile-character-table
         th プロフィール
@@ -36,14 +35,4 @@ block append content
       | 人と人の繋がりを大事にしており、人情に厚い。
       br
       | 夢は【安くて旨い野菜を皆に提供する】こと。
-  article.box-character-thumbnail
-    h2 メイン キャラクター
-    a(href="./character.html")
-      img.img-thumbnail(src="./img/character/kurtz/kurtz.png" alt="クルツ|サムネ" width="60px")
-    a(href="./orivia.html")
-      img.img-thumbnail(src="./img/character/orivia/orivia.png" alt="オリビア|サムネ" width="60px")
-    a(href="./alec.html")
-      img.img-thumbnail(src="./img/character/alec/alec.png" alt="アレク|サムネ" width="60px")
-    a(href="./heetz.html")
-      img.img-thumbnail(src="./img/character/heetz/heetz.png" alt="ヒーツ|サムネ" width="60px")
-    | CommingSoon...
+  include character_under_list

@@ -1,0 +1,39 @@
+extends ./base
+block title-word
+  title ガーデンテイル ~レオナルド~
+block css-link
+  link(rel="stylesheet" type="text/css" href='./css/character.css')
+
+block append content
+  article.box-character
+    h2.name-character
+      span.streetName-character 〜堕ちた獅子王〜
+      | &nbsp; &nbsp; レオナルド
+    div.clearfix.cover-img-character
+      img.img-character(src="./img/character/leonardo/leonardo.png" alt="レオナルド|立ち絵")
+      div.character-serif
+        | あの幸福も、安息も、全ては偽り。
+        br
+        | 泡沫の夢に過ぎん
+    div.cover-unitImage-character
+      img.img-unitImage-character(src="./img/character/leonardo/leonardo_f.png" alt="レオナルド|前向き")
+      img.img-unitImage-character.unitImage-back(src="./img/character/leonardo/leonardo_b.png" alt="レオナルド|後ろ向き")
+    section.profile-character
+      table.profile-character-table
+        th プロフィール
+        tr
+          td 年齢
+          td 38
+        tr
+         td 性別
+         td 男
+        tr
+         td 職業
+         td 皇帝
+    section.establish-character
+      | ズゥの皇帝であり、獅子の獣人。
+      br
+      | 血統、器量、政治手腕など、確かな王の器を持つ存在。
+      br
+      | とある事件で己を見失い、ガーデンに戦争を挑む益荒男。
+  include character_under_list

@@ -60,3 +60,9 @@
 .profile-character-table td {
   padding: 10px;
 }
+.img-model-character{
+  width: 230px;
+  position: absolute;
+  bottom: 137px;
+  left: 50px;
+}
