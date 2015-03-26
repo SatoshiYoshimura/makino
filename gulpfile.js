@@ -20,7 +20,7 @@ gulp.task('jade', function () {
 });
 
 gulp.task('stylus', function() {
-  gulp.src('stylus/*')
+  gulp.src('stylus/*.styl')
   .pipe(stylus())
   .pipe(gulp.dest('css/'));
 });
